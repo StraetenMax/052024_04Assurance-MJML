@@ -8,6 +8,7 @@ mjml
         mj-attributes
             mj-all(Roboto, Arial, Helvetica, sans-serif)/
             mj-image(padding='0' border='none')/
+            mj-button(background-color='#BA4995' font-size='16px' line-height='20px' font-weight='500' text-transform='uppercase' inner-padding='15px 30px' border-radius='10px')/
     mj-body
         //- bandeau Esa
         include includes/_esa
@@ -23,7 +24,11 @@ mjml
                 mj-text(align='center' font-size='38px' font-weight='300' line-height='42px' color='#684092') Conseiller/ère clientèle
         //- texte
         //- call to action
-        //- entreprise
+        mj-section(background-color='#ffffff' padding-top='0')
+            mj-column(width='500px')
+                mj-button(css-class='hover' href='#') Postuler Maintenant
+        //- entreprises
+        include includes/_entreprises
         //- footer réseaux sociaux
         include includes/_resociaux
         //- footer adresse
