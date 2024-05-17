@@ -1,0 +1,33 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>Annonce Poste à pourvoir Ref07 et Ref08</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"/>
+    <mj-raw>
+      <meta name="color-scheme" content="light"></meta>
+      <meta name="supported-color-schemes" content="light"></meta>
+    </mj-raw>
+    <mj-attributes>
+      <mj-all Roboto="Roboto" Arial="Arial" Helvetica="Helvetica" sans-serif="sans-serif"/>
+      <mj-image padding="0" border="none"/>
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#4A5568" padding="0">
+      <mj-group width="480px">
+        <mj-column width="20%" padding-top="8px" padding-bottom="8px" padding-right="8px" vertical-align="middle">
+          <mj-image padding="0" border="none" width="50px" align="right" src="https://i.ibb.co/xYKFMzh/logoESA.jpg" alt="logo ESA (École Supérieure Assurance)"/>
+        </mj-column>
+        <mj-column width="80%" padding-top="8px" padding-bottom="8px" padding-left="8px">
+          <mj-text vertical-align="middle" padding="0" font-size="16px" line-height="20px" font-weight="300" color="#ffffff">Ecosup Assurance partenaire de l'ESA Paris <em>(École Supérieure d'Assurance)</em></mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-bottom="0">
+      <mj-column width="250px">
+        <mj-image src="https://img.mailinblue.com/3403292/images/content_library/original/6631e75e524b5b6d34b88b1b.png" alt="Logo Ecosup Assurance"/>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-bottom="0"></mj-section>
+  </mj-body>
+</mjml>
