@@ -17,4 +17,14 @@ mjml
                 mj-image(src='https://img.mailinblue.com/3403292/images/content_library/original/6631e75e524b5b6d34b88b1b.png' alt='Logo Ecosup Assurance')/
         //- introduction à l'annonce et titre de l'annonce
         mj-section(background-color='#ffffff' padding-bottom='0')
-        
+            mj-column(width='500px')
+                mj-text(font-size='16px' font-weight='300' line-height='20px' color='#2D3748') #[strong {{contact.PRENOM}}] cette annonce correspond à votre recherche d'une alternance dans les métiers de l'assurance et de la banque.
+                mj-text(align='center' font-size='16px' font-weight='900' line-height='20px' color='#684092' text-transform='uppercase' padding-top='0' padding-bottom='0') #[span(style='color:#D30000;') Nouveau] Poste à Pourvoir 
+                mj-text(align='center' font-size='38px' font-weight='300' line-height='42px' color='#684092') Conseiller/ère clientèle
+        //- texte
+        //- call to action
+        //- entreprise
+        //- footer adresse
+        include includes/_adresse
+        //- footer législation
+        include includes/_regl
